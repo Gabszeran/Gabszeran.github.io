@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Maria Gabriela</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist&display=swap" rel="stylesheet"> <!--importando a fonte-->
+</head>
+<body id="body">
+    
+    <!--------------------------------------------- HEADER --------------------------------------------->
+    <header>
+
+        <h1>Maria Gabriela</h1>
+
+        <nav class="nav-menu-normal">
+
+            <ul class="lista-menu-normal"> 
+
+                <li class="item-menu-normal"><a href="#home" class="link-menu-normal">Home</a></li>
+                <li class="item-menu-normal"><a href="#habilidades" class="link-menu-normal">Habilidades</a></li>
+                <li class="item-menu-normal"><a href="#projetos" class="link-menu-normal">Projetos</a></li>
+                <li class="item-menu-normal"><a href="#certificados" class="link-menu-normal">Certificados</a></li>
+                <li class="item-menu-normal"><a href="#contato" class="link-menu-normal">Contato</a></li>
+
+            </ul>
+
+        </nav>   
+
+        <!--------------------------------------------- MENU HAMBÚRGUER --------------------------------------------->
+        <div id="botao-e-nav">
+            <!-- ícone do menu hambúrguer -->
+            <button class="icone-menu-hamburguer" onclick="abrirFecharMenu()">
+
+                <img class="icon" src="img/menu.png" alt="ícone">
+                
+            </button>
+
+            <!-- só aparece quando o ícone do menu hambúrguer for clicado -->
+            <nav class="nav-menu-hamburguer"> 
+
+                <ul class="lista-menu-hamburguer">
+
+                    <li class="item-menu-hamburguer"><a href="#home" class="link-menu-hamburguer">Home</a></li>
+                    <li class="item-menu-hamburguer"><a href="#habilidades" class="link-menu-hamburguer">Habilidades</a></li>
+                    <li class="item-menu-hamburguer"><a href="#projetos" class="link-menu-hamburguer">Projetos</a></li>
+                    <li class="item-menu-hamburguer"><a href="#contato" class="link-menu-hamburguer">Contato</a></li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!--------------------------------------------- HOME ---------------------------------------------->
+    <section id="home">
+
+        <div id="container-home">
+
+            <div id="texto-home">
+
+                <h2>Desenvolvedora<br> Front-end</h2>
+    
+                <p>Olá, meu nome é Maria Gabriela e sou uma desenvolvedora Front-end com paixão em criar experiências de usuários ricas e intuitivas usando <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.</p>
+            
+            </div>
+    
+            <img id="imagem-home" src="img/foto-fundo-redondo.png" alt="ilustração">
+
+        </div>
+
+    </section>
+
+    <!--------------------------------------------- HABILIDADES ---------------------------------------------->
+    <section id="habilidades">
+        
+        <h2>Habilidades</h2>
+
+        <h3>Hard Skills</h3>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <img src="img/html.png" alt="ícone HTML">
+
+                <h4>HTML</h4>
+
+            </div>
+
+            <div class="card">
+
+                <img src="img/css.png" alt="ícone CSS">
+
+                <h4>CSS</h4>
+
+            </div>
+
+            <div class="card">
+
+                <img src="img/js.png" alt="ícone JS">
+
+                <h4>JavaScript</h4>
+
+            </div>
+
+            <div class="card">
+
+                <img src="img/github-pretoo.png" alt="ícone GitHub">
+
+                <h4>GitHub</h4>
+
+            </div>
+
+            <div class="card">
+
+                <img src="img/react.png" alt="ícone React.Js">
+
+                <h4>React</h4>
+
+            </div>
+
+        </div>
+
+        <h3>Soft Skills</h3>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <img src="img/equipe-color.png" alt="ícone">
+
+                <h4>Trabalho em equipe</h4>
+
+            </div>
+
+            <div class="card">
+
+                <img src="img/adap-color.png" alt="ícone">
+
+                <h4>Adaptabilidade</h4>
+
+            </div>
+
+            <div class="card">
+
+                <img src="img/comuni-color.png" alt="ícone">
+
+                <h4>Comunicação</h4>
+
+            </div>
+
+            <div class="card">
+
+                <img src="img/problema-color.png" alt="ícone">
+
+                <h4>Resolução de problemas</h4>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!---------------------------------------------- PROJETOS --------------------------------------------->
+    <section id="projetos">
+
+        <h2>Projetos</h2>
+
+        <!-- imagem na esquerda-->
+        <div class="container">
+
+            <img src="img/calculo-pagamento.png" alt="Imagem do site Cálculo de Pagamento">
+
+            <div class="info-projeto">
+
+                <h3>Cálculo de Pagamento</h3>
+
+                <p>Esta página é uma calculadora de folha de pagamento que permite aos usuários inserir o valor da hora trabalhada e o número de horas trabalhadas no mês para calcular o salário líquido. Com um design simples e funcional, ela fornece resultados claros, incluindo o salário bruto, descontos de imposto de renda e INSS, além do valor do FGTS. É uma ferramenta útil para quem precisa estimar seu salário líquido de forma rápida e eficiente.</p>
+
+                <p class="linguagens-projeto">HTML CSS JS</p>
+
+                <a href="https://github.com/Gabszeran/calculo-de-pagamento" target="_blank"><img src="img/codigo.png" alt="Ícone do link do código"></img></a>
+
+            </div>
+
+        </div>
+
+        <!-- imagem na direita -->
+        <div class="container direita">
+
+            <div class="info-projeto direita">
+                
+                <h3 class="direita">Verificador de Idade</h3>
+                
+                <p>Calcula a idade do usuário com base no ano de nascimento e exibe uma imagem correspondente ao sexo e faixa etária selecionados. Design responsivo.</p>
+                
+                <p class="linguagens-projeto direita">HTML CSS JS</p>
+                
+                <a href="https://github.com/Gabszeran/Verificador-de-idade" target="_blank"><img src="img/codigo.png" alt="Ícone do link do código"></img></a>
+
+            </div>
+            
+            <img src="img/verificador-idade.png" alt="Imagem do site Verificador de Idade"></img>
+
+        </div>
+
+
+        <!-- imagem na esquerda-->
+        <div class="container">
+
+            <img src="img/cronometro.png" alt="Imagem do site cronômetro">
+
+            <div class="info-projeto">
+
+                <h3>Cronômetro</h3>
+
+                <p>Exibe minutos, segundos e milissegundos, e possui botões para iniciar, pausar, retomar e resetar o tempo. O JavaScript controla a lógica do cronômetro e a manipulação do DOM, enquanto o CSS estiliza a página.</p>
+
+                <p class="linguagens-projeto">HTML CSS JS</p>
+
+                <a href="https://github.com/Gabszeran/cronometro" target="_blank"><img src="img/codigo.png" alt="Ícone do link do código"></img></a>
+
+            </div>
+
+        </div>
+
+        <!-- imagem na direita -->
+        <div class="container direita">
+
+            <div class="info-projeto direita">
+                
+                <h3 class="direita">Tabuada</h3>
+                
+                <p>Permite ao usuário gerar tabuadas a partir de um número fornecido.  O JavaScript é utilizado para gerar as tabuadas com base no número fornecido pelo usuário e exibi-las em um elemento de lista suspensa. Design responsivo.</p>
+                
+                <p class="linguagens-projeto direita">HTML CSS JS</p>
+                
+                <a href="https://github.com/Gabszeran/Tabuada" target="_blank"><img src="img/codigo.png" alt="Ícone do link do código"></img></a>
+                
+            </div>
+
+            <img src="img/tabuada.png" alt="Imagem do site Tabuada">
+
+        </div>
+
+    </section>
+
+    <!---------------------------------------------- SEÇÃO PROJETOS OCULTOS --------------------------------------------->
+    <section id="outros-projetos">
+
+        <h2>Mais projetos</h2>
+
+        <button id="botao-abrir-fechar-outros-projetos" onclick="abrirFecharProjetos()">
+
+            <img class="icone-botao-projetos" src="img/seta.png" alt="ícone de flecha para mostrar ou ocultar os projetos">
+
+        </button>
+
+        <div class="projetos-ocultos">
+
+            <!-- imagem na esquerda-->
+            <div class="container">
+
+                <img src="img/hora-do-dia.png" alt="Imagem do site Hora do Dia">
+
+                <div class="info-projeto">
+
+                    <h3>Hora do Dia</h3>
+
+                    <p>Exibe uma mensagem e uma imagem dependendo da hora do dia.  O JavaScript é utilizado para determinar a hora do dia e atualizar dinamicamente o conteúdo da página com base nisso. Design responsivo.</p>
+
+                    <p class="linguagens-projeto">HTML CSS JS</p>
+
+                    <a href="https://github.com/Gabszeran/Horario-do-dia" target="_blank"><img src="img/codigo.png" alt="Ícone do link do código"></img></a>
+
+                </div>
+
+            </div>
+
+            <!-- imagem na direita -->
+            <div class="container direita">
+
+                <div class="info-projeto direita">
+                    
+                    <h3 class="direita">Contador</h3>
+                    
+                    <p>Essa página fornece uma maneira interativa para contar números em um intervalo específico, permitindo que o usuário especifique o início, o fim e o passo da contagem.</p>
+                    
+                    <p class="linguagens-projeto direita">HTML CSS JS</p>
+                   
+                    <a href="https://github.com/Gabszeran/Contador" target="_blank"><img src="img/codigo.png" alt="Ícone do link do código"></img></a>
+                    
+                </div>
+
+                <img src="img/contador.png" alt="Imagem do site Contador">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!---------------------------------------------- CERTIFICADOS --------------------------------------------->
+    <section id="certificados">
+        
+        <h2>Certificados</h2>
+
+        <div class="aprendizados">
+
+            <div class="aprendizado">
+
+                <img src="img/certificadoUdemyJs.jpg" alt="Imagem do certificado">
+
+                <div class="aprendizado-escritas">
+
+                    <h1>Curso Web Moderno Completo com JavaScript Cod3r</h1>
+
+                    <p>O curso oferece uma jornada completa desde os conceitos básicos até tecnologias avançadas. Ele aborda uma variedade de tópicos essenciais, incluindo HTML5, CSS3, JavaScript (fundamentos e avançado), Node.js, React, Vue.js, MongoDB, entre outros.</p>
+                    
+                    <a href="https://drive.google.com/file/d/1s4DuRY5hEoaiIVombEN2mzAEFxbw4kjI/view?usp=drive_link" target="_blank"><img class="icone-link" src="img/olho.png" alt="ícone com link do certificado"></a>
+
+                </div>
+
+            </div>
+
+            <div class="aprendizado">
+
+                <img src="img/certificadoCursoEmVideo.jpg" alt="Imagem do certificado">
+
+                <div class="aprendizado-escritas">
+
+                    <h1>Curso de JavaScript Curso Em Vídeo</h1>
+
+                    <p>O curso é uma introdução abrangente,  cobre desde os conceitos fundamentais da linguagem até aplicações práticas e projetos dinâmicos. Ele ensina scripts interativos, manipulação de elementos HTML, como trabalhar com eventos e muito mais.</p>
+
+                    <a href="https://drive.google.com/file/d/1bRpKaCQCX7L85sGxR0Qy9ye-zyaNfLi9/view?usp=drive_link" target="_blank"><img class="icone-link" src="img/olho.png" alt="ícone com link do certificado"></a>
+
+                </div>
+
+            </div>
+
+            <div class="aprendizado">
+
+                <img src="img/certificateHtmlCssJs.jpg" alt="Imagem do certificado">
+
+                <div class="aprendizado-escritas">
+
+                    <h1>Curso de HTML CSS e JavaScript Yannick Gregoire</h1>
+
+                    <p>Esse curso explora os fundamentos do web design criativo, utilizando HTML, CSS e JavaScript para construir sites interativos do zero. Ele mostra o processo de criação de sites dinâmicos, aprendendo a incorporar animações e propriedades interativas para dar vida às páginas.</p>
+
+                    <a href="https://drive.google.com/file/d/18qve4Q1_6owtXeTDusDP1_1TzS1IJV0z/view?usp=drive_link" target="_blank"><img class="icone-link" src="img/olho.png" alt="ícone com link do certificado"></a>
+
+                </div>
+
+            </div>
+
+            <div class="aprendizado">
+
+                <img src="img/certificadoUXDesign.jpg" alt="Imagem do certificado">
+
+                <div class="aprendizado-escritas">
+
+                    <h1>Curso de UX Design Ethan Parry</h1>
+
+                    <p>O curso concentram-se na pesquisa, metodologia e estratégia geral de experiência do usuário. Aprende-se a construir sites que não apenas impressionam visualmente, mas também oferecem uma experiência fluida e envolvente para os usuários.</p>
+
+                    <a href="https://drive.google.com/file/d/1tzHTC0QO9Jck9K4W524QAE46F8r7gmFJ/view?usp=drive_link" target="_blank"><img class="icone-link" src="img/olho.png" alt="ícone com link do certificado"></a>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--------------------------------------------- CONTATO --------------------------------------------->
+    <section id="contato">
+
+        <div class="container-contato">
+
+            <div class="escritas">
+
+                <h1>Entre em contato.</h1>
+
+                <p>Vamos conversar?</p>
+
+            </div>
+            
+            <div class="imagens">
+
+                <a href="https://api.whatsapp.com/send?phone=5548984720686" target="_blank"><img src="img/whatsapp.png" alt="ícone WhatsApp"></a>
+
+                <a href="https://www.linkedin.com/in/maria-gabriela-cardoso-pereira-113895273/" target="_blank"><img src="img/linkedin.png" alt="ícone do LinkedIn"></a>
+
+                <img src="img/gmail.png" alt="Ícone do Gmail" id="iconeParaCopiar" title="Clique para copiar endereço de e-mail." onclick="copiarTexto()">
+
+                <input type="text" value="gabrielacp2501@gmail.com" id="textoParaCopiar" readonly style="display: none;">
+
+            </div>
+            
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div>
+            <h1>Contato</h1>
+            <p>+55 48 9 8472-0686</p>
+            <p>gabrielacp2501@gmail.com</p>
+        </div>
+
+        <div>
+            <h1>Links</h1>
+            <a href="https://github.com/Gabszeran" target="_blank">GitHub</a>
+            <a href="https://api.whatsapp.com/send?phone=5548984720686" target="_blank">WhatsApp</a>
+            <a href="https://www.linkedin.com/in/maria-gabriela-cardoso-pereira-113895273/" target="_blank">LinkedIn</a>
+        </div>
+
+        <div>
+            <h1>Portfólio produzido por</h1>
+            <p>Maria Gabriela Cardoso Pereira</p>
+        </div>
+
+        <hr>
+
+    </footer>
+
+    <!--------------------------------------------- BOTÃO VOLTAR AO TOPO --------------------------------------------->
+    <button class="scrollTop" onclick="backTop()">
+
+        <img src="img/botao-voltar-ao-topo-cinza.png" alt="ícone botão voltar ao topo">
+        
+    </button>
+
+    <script defer src="script.js"></script>
+</body>
+</html>

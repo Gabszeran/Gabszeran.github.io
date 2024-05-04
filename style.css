@@ -1,0 +1,577 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Urbanist", sans-serif;
+    color: #394042;
+}
+
+/* PARA TODOS */
+button {
+    border: none;
+    background: none;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    margin-bottom: 30px;
+}
+
+/* PARA TODOS */
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+/* PARA TODOS */
+p {
+    font-size: 1rem;
+}
+
+/* --------------------------------------------- HEADER --------------------------------------------- */
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 1.5rem;
+}
+
+/* --------------------------------------------- MENU NORMAL --------------------------------------------- */
+/* ul */
+.lista-menu-normal {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    list-style: none;
+}
+
+/* li */
+.item-menu-normal {
+    padding: 15px;
+}
+
+/* a */
+.link-menu-normal {
+    text-decoration: none;
+    color: #394042;
+    cursor: pointer;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+/* --------------------------------------------- MENU HAMBURGUER --------------------------------------------- */
+/* ocultando o ícone */
+.icone-menu-hamburguer {
+    display: none;
+    cursor: pointer;
+}
+ 
+/* ocultando a nav */
+.nav-menu-hamburguer {
+    display: none;
+}
+
+/* ocultando o li */
+.item-menu-hamburguer {
+    display: none;
+}
+
+/* --------------------------------------------- SEÇÃO HOME --------------------------------------------- */
+#container-home {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background: #ffdade;
+    width: 75%;
+    padding: 60px;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 35px;
+}
+
+#texto-home {
+    text-align: start;
+    justify-content: start;
+    flex-direction: column;
+    max-width: 440px;
+    min-width: 200px;
+}
+
+#texto-home h2 {
+    justify-content: start;
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+#container-home img {
+    max-width: 350px;
+    min-width: 180px;
+    padding: 30px;
+}
+
+/* --------------------------------------------- SEÇÃO HABILIDADES --------------------------------------------- */
+/* todos os cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+/* cada card */
+.card {
+    width: 180px;
+    height: 230px;
+    background: #ffdade;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px;
+    padding: 20px;
+    align-items: center;
+    border-radius: 32px;
+    transition: transform 0.3s ease; /* Adiciona transição para suavizar o efeito */
+}
+
+.card:hover {
+  transform: scale(1.1); /* Aumenta a escala em 10% quando o mouse passa sobre a div */
+}
+
+.card img {
+    max-width: 80px;
+    margin: 20px;
+}
+
+.card h4 {
+    font-size: 1rem;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* --------------------------------------------- PROJETOS --------------------------------------------- */
+/* cada projeto */
+.container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+/* todas as escritas de cada projeto */
+.info-projeto {
+    flex-direction: column;
+    text-align: start;
+    max-width: 450px;
+}
+
+/* todos os itens que têm essa classe */
+.direita {
+    text-align: end;
+}
+
+.info-projeto h3 {
+    justify-content: start;
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+}
+
+/* h3 dos containers com a imagem na direita */
+.direita h3 {
+    justify-content: end;
+}
+
+.info-projeto p {
+    margin-bottom: 12px;
+    font-size: 0.8rem;
+}
+
+.linguagens-projeto {
+    font-weight: bold;
+}
+
+/* ícone com o link do código do projeto */
+.info-projeto img {
+    width: 20px;
+    cursor: pointer;
+}
+
+/* imagem do projeto */
+.container img {
+    max-width: 450px;
+    margin-right: 20px;
+    border-radius: 12px;
+}
+
+/* imagens na direita */
+.direita img {
+    margin-left: 20px;
+}
+
+/* --------------------------------------------- OUTROS PROJETOS --------------------------------------------- */
+#outros-projetos h2 {
+    font-size: 1rem;
+    margin-bottom: 12px;
+}
+
+#botao-abrir-fechar-outros-projetos {
+    display: flex;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* todos os projetos ocultos */
+.projetos-ocultos {
+    display: none;
+}
+
+/* --------------------------------------------- CERTIFICADOS E CURSOS --------------------------------------------- */
+
+#certificados h2 {
+    margin-top: 100px;
+}
+
+/* todos os certificados */
+.aprendizados {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 100px;
+}
+
+/* cada certificado */
+.aprendizado {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 30px;
+    max-width: 650px;
+}
+
+.aprendizado img {
+    margin-right: 15px;
+    border-radius: 5px;
+    transition: transform 0.3s ease; /* Adiciona transição para suavizar o efeito */
+}
+
+.aprendizado img:hover {
+  transform: scale(1.1); /* Aumenta a escala em 10% quando o mouse passa sobre a div */
+}
+
+.aprendizado-escritas {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 300px;
+    max-height: 141px;
+}
+
+/* ícone com o link para a vizualização do certificado */
+.icone-link {
+    width: 18px;
+    margin-top: 10px;
+}
+
+.aprendizado-escritas h1 {
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+}
+
+.aprendizado-escritas p {
+    font-size: 0.6rem;
+    margin-bottom: 10px;
+}
+
+/* --------------------------------------------- CONTATO --------------------------------------------- */
+.container-contato {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+    background: #ffdade;
+    width: 50%;
+    padding: 60px;
+    margin: auto;
+    margin-bottom: 100px;
+    border-radius: 35px;
+}
+
+.escritas {
+    flex-direction: column;
+}
+
+.escritas h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.escritas p {
+    font-size: 1.3rem;
+}
+
+.imagens {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagens img {
+    margin: 10px;
+    width: 30px;
+}
+
+/* Ícone do Gmail */
+#iconeParaCopiar {
+    cursor: pointer;
+}
+
+/*  --------------------------------------------- RODAPÉ  --------------------------------------------- */
+footer {
+    min-height: 100px;
+    background: #394042;
+    color: #cccaca;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer a {
+    color: #cccaca;
+    font-size: 0.6rem;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+footer h1 {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: #cccaca;
+    font-size: 0.6rem;
+    margin-bottom: 5px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    padding: 30px; 
+    justify-content: flex-start;
+}
+
+hr {
+    background-color: #cccaca;
+    height: 1.3px;
+    width: 70vw;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+
+
+
+/* --------------------------------------------- USADAS FUNÇÕES JS --------------------------------------------- */
+
+/* usada pra mostrar e ocultar itens */
+.ativo {
+    display: block;
+}
+
+/* --------------------------------------------- MEDIA QUERY --------------------------------------------- */
+@media screen and (max-width: 1036px) {
+    /* -------------------------- HEADER -------------------------- */
+    header {
+        padding: 0;
+        align-items: flex-start;
+    }
+
+    header h1 {
+        margin: 30px;
+    }
+     
+    /* -------------------------- HOME -------------------------- */
+    #container-home {
+        width: 90%;
+        padding: 40px;
+    }
+    
+    #texto-home {
+        text-align: center;
+    }
+
+    #texto-home h2 {
+        font-size: 2rem;
+        justify-content: center;
+    }
+
+    #container-home img {
+        display: none;
+    }
+
+    /* -------------------------- MENU NORMAL -------------------------- */
+    /* ocultando o menu normal */
+    .nav-menu-normal {
+        display: none;
+    }
+
+    /* -------------------------- MENU HAMBURGUER -------------------------- */ 
+    .icone-menu-hamburguer {
+        display: block;
+        margin: 30px;
+    }
+
+    /* ul */
+    .lista-menu-hamburguer {
+        font-size: 1rem;
+        list-style: none;
+        width: 50vw;
+        height: auto;
+    }
+    
+    /* li */
+    .item-menu-hamburguer {
+        display: block; 
+        margin-bottom: 70px;
+        text-align: center;
+    }
+    
+    /* a  */
+    .link-menu-hamburguer {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    /* -------------------------- SEÇÃO PROJETOS -------------------------- */
+    /* todos os projetos */
+    .container {
+        flex-direction: column;
+    }
+
+    #projetos img {
+        max-width: 70vw;
+    }
+
+    /* todas as escritas de cada projeto */
+    .info-projeto {
+        text-align: center;
+    }
+
+    /* -------------------------- PROJETOS OCULTOS -------------------------- */ 
+    #outros-projetos img {
+        max-width: 90vw;
+    }
+    
+    .info-projeto h3 {
+        justify-content: center;
+    }
+
+    /* todos os itens que têm essa classe */
+    .direita {
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+    }
+
+    /* imagem de cada projeto */
+    .container img {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    
+   
+    /* tirando a margem lateral dos itens */
+    .direita img {
+        margin-left: 0;
+    }
+
+    /* -------------------------- CERTIFICADOS -------------------------- */
+    /* cada certificado */
+    .aprendizado {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .aprendizado img {
+        margin-bottom: 15px;
+        margin-right: 0;
+    }
+
+    /* -------------------------- CONTATO -------------------------- */
+    .container-contato {
+        width: 90%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imagens {
+        flex-direction: row;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    header h1 {
+        font-size: 1rem
+    }
+
+}
+
+/* --------------------------------------------- BOTÃO VOLTAR AO TOPO --------------------------------------------- */
+.scrollTop {
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    box-shadow: 0 1px 6px 2px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .4s ease;
+}
+.scrollTop.active {
+    opacity: 1;
+    visibility: visible;
+}
+.scrollTop img {
+    width: 100%;
+}
