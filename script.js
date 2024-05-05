@@ -21,6 +21,18 @@ function abrirFecharMenu() {
   }
 }
 
+// Seleciona todos os itens da lista não ordenada (ul) da navegação do menu hamburguer
+let itensMenu = document.querySelectorAll(".nav-menu-hamburguer ul li");
+
+// Adiciona um evento de clique para cada item da lista
+itensMenu.forEach(function(item) {
+  item.addEventListener("click", function() {
+    // Chama a função abrirFecharMenu() para fechar o menu
+    abrirFecharMenu();
+  });
+});
+
+
 // FUNÇÃO BOTÃO VOLTAR PRO TOPO 
 window.addEventListener("scroll", function () {
   let scroll = this.document.querySelector(".scrollTop");
