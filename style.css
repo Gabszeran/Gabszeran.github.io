@@ -43,6 +43,7 @@ p {
 /* --------------------------------------------- HEADER --------------------------------------------- */
 header {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
@@ -89,11 +90,13 @@ a:hover {
 /* ocultando a nav */
 .nav-menu-hamburguer {
     display: none;
-}
-
-/* ocultando o li */
-.item-menu-hamburguer {
-    display: none;
+    height: 90vh;
+    background: #394042;
+    margin-bottom: 30px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
 }
 
 /* --------------------------------------------- SEÇÃO HOME --------------------------------------------- */
@@ -404,21 +407,15 @@ hr {
 
 /* usada pra mostrar e ocultar itens */
 .ativo {
-    display: block;
+    display: flex;
 }
 
 /* --------------------------------------------- MEDIA QUERY --------------------------------------------- */
 @media screen and (max-width: 1036px) {
-    /* -------------------------- HEADER -------------------------- */
+    /* -------------------------- HEADER --------------------------  */
     header {
-        padding: 0;
-        align-items: flex-start;
+        margin-bottom: 0;
     }
-
-    header h1 {
-        margin: 30px;
-    }
-     
     /* -------------------------- HOME -------------------------- */
     #container-home {
         width: 90%;
@@ -447,28 +444,33 @@ hr {
     /* -------------------------- MENU HAMBURGUER -------------------------- */ 
     .icone-menu-hamburguer {
         display: block;
-        margin: 30px;
     }
 
+    .nav-menu-hamburguer {
+        height: 90vh;
+        background: #394042;
+        margin-bottom: 30px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    
     /* ul */
     .lista-menu-hamburguer {
         font-size: 1rem;
         list-style: none;
-        width: 50vw;
-        height: auto;
     }
     
     /* li */
     .item-menu-hamburguer {
-        display: block; 
-        margin-bottom: 70px;
         text-align: center;
+        padding: 60px;
     }
     
     /* a  */
     .link-menu-hamburguer {
         text-decoration: none;
-        color: #000000;
+        color: #fff;
     }
 
     /* -------------------------- SEÇÃO PROJETOS -------------------------- */
@@ -544,6 +546,9 @@ hr {
         font-size: 1rem
     }
 
+    .item-menu-hamburguer {
+        padding: 30px;
+    }
 }
 
 /* --------------------------------------------- BOTÃO VOLTAR AO TOPO --------------------------------------------- */
