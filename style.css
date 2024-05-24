@@ -235,7 +235,6 @@ a:hover {
 
 /* --------------------------------------------- OUTROS PROJETOS --------------------------------------------- */
 
-
 #outros-projetos h2 {
     font-size: 1rem;
     margin-bottom: 12px;
@@ -253,68 +252,6 @@ a:hover {
     flex-direction: column;
 }
 
-/* --------------------------------------------- CERTIFICADOS E CURSOS --------------------------------------------- */
-
-#certificados h2 {
-    margin-top: 30px;
-}
-
-/* todos os certificados */
-.aprendizados {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin-bottom: 30px;
-}
-
-/* cada certificado */
-.aprendizado {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin: 30px;
-    max-width: 650px;
-}
-
-.aprendizado img {
-    margin-right: 15px;
-    border-radius: 5px;
-    transition: transform 0.3s ease; /* Adiciona transição para suavizar o efeito */
-}
-
-.aprendizado img:hover {
-  transform: scale(1.1); /* Aumenta a escala em 10% quando o mouse passa sobre a div */
-}
-
-.aprendizado-escritas {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    max-width: 300px;
-    max-height: 141px;
-}
-
-/* ícone com o link para a vizualização do certificado */
-.icone-link {
-    width: 18px;
-    margin-top: 10px;
-}
-
-.aprendizado-escritas h1 {
-    font-size: 0.8rem;
-    margin-bottom: 15px;
-}
-
-.aprendizado-escritas p {
-    font-size: 0.6rem;
-    margin-bottom: 10px;
-}
-
 /* --------------------------------------------- CONTATO --------------------------------------------- */
 .container-contato {
     display: flex;
@@ -326,6 +263,7 @@ a:hover {
     padding: 60px;
     margin: auto;
     margin-bottom: 30px;
+    margin-top: 30px;
     border-radius: 35px;
 }
 
@@ -507,18 +445,6 @@ footer div {
     /* tirando a margem lateral dos itens */
     .direita img {
         margin-left: 0;
-    }
-
-    /* -------------------------- CERTIFICADOS -------------------------- */
-    /* cada certificado */
-    .aprendizado {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .aprendizado img {
-        margin-bottom: 15px;
-        margin-right: 0;
     }
 
     /* -------------------------- CONTATO -------------------------- */
