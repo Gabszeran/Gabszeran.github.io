@@ -7,7 +7,8 @@
 
 body {
     font-family: "Urbanist", sans-serif;
-    color: #394042;
+    color: #f5f0eb;
+    background-color: #161616;
 }
 
 /* PARA TODOS */
@@ -72,7 +73,7 @@ header h1 {
 /* a */
 .link-menu-normal {
     text-decoration: none;
-    color: #394042;
+    color: #f5f0eb;
     cursor: pointer;
 }
 
@@ -91,7 +92,7 @@ a:hover {
 .nav-menu-hamburguer {
     display: none;
     height: 90vh;
-    background: #394042;
+    background: linear-gradient(#9141ac, #640266);
     margin-bottom: 30px;
     align-items: center;
     align-content: center;
@@ -104,7 +105,7 @@ a:hover {
     justify-content: space-around;
     align-content: center;
     align-items: center;
-    background: #ffdade;
+    background: linear-gradient(#9141ac, #640266);
     width: 65%;
     padding: 60px;
     margin: auto;
@@ -146,7 +147,7 @@ a:hover {
 .card {
     width: 150px;
     height: 200px;
-    background: #ffdade;
+    background: linear-gradient(#9141ac, #640266);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -258,7 +259,7 @@ a:hover {
     justify-content: space-evenly;
     align-content: center;
     align-items: center;
-    background: #ffdade;
+    background: linear-gradient(#9141ac, #640266);
     width: 50%;
     padding: 60px;
     margin: auto;
@@ -294,41 +295,6 @@ a:hover {
 /* Ícone do Gmail */
 #iconeParaCopiar {
     cursor: pointer;
-}
-
-/*  --------------------------------------------- RODAPÉ  --------------------------------------------- */
-footer {
-    background: #394042;
-    color: #cccaca;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-footer a {
-    color: #cccaca;
-    font-size: 0.6rem;
-    text-decoration: none;
-    margin-bottom: 5px;
-}
-
-footer h1 {
-    font-size: 0.7rem;
-    margin-bottom: 10px;
-}
-
-footer p {
-    color: #cccaca;
-    font-size: 0.5rem;
-    margin-bottom: 5px;
-}
-
-footer div {
-    display: flex;
-    flex-direction: column;
-    padding: 15px; 
-    justify-content: flex-start;
 }
 
 /* --------------------------------------------- USADAS FUNÇÕES JS --------------------------------------------- */
@@ -376,7 +342,7 @@ footer div {
 
     .nav-menu-hamburguer {
         height: 55vh;
-        background: #394042;
+        background: linear-gradient(#9141ac, #640266);
         margin-bottom: 30px;
         align-items: center;
         align-content: center;
@@ -401,7 +367,7 @@ footer div {
     .link-menu-hamburguer {
         display: block;
         text-decoration: none;
-        color: #fff;
+        color: #f5f0eb;
     }
 
     /* -------------------------- SEÇÃO PROJETOS -------------------------- */
