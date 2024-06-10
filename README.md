@@ -1,6 +1,6 @@
 # Portfólio Maria Gabriela
 
-Este é o repositório do meu portfólio online, onde compartilho minha jornada como desenvolvedora front-end. Sou apaixonada por criar experiências de usuário envolventes e intuitivas, e este portfólio é uma demonstração do meu trabalho e das minhas habilidades.
+Este é o repositório do meu portfólio online, onde compartilho minha jornada como desenvolvedora front-end.
 
 ## Funcionalidades Principais:
 
